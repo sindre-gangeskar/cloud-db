@@ -1,0 +1,10 @@
+{
+    "queries": [
+        "INSERT INTO Users (FirstName, LastName, Username, EncryptedPassword, Salt) VALUES ('Sindre', 'Gangeskar', 'User1', 'test', 'pass');",
+        "INSERT INTO Hotels (Name, Location) VALUES ('Street Motel', 'Chicago');",
+        "INSERT INTO Hotels (Name, Location) VALUES ('Mariott', 'Warshaw');",
+        "INSERT INTO Rooms (Capacity, PricePerDay, HotelId) VALUES (2,22.50,1),(4,40,1);",
+        "INSERT INTO Rates (UserId, HotelId, Value) VALUES (1,1,4);",
+        "INSERT INTO Reservations (UserId, RoomId, StartDate, EndDate) VALUES (1,1, '2022-11-11 10: 00: 00', '2022-11-14 10: 00: 00');"
+    ]
+}
